@@ -50,8 +50,6 @@ function zmianaPolozenia(e){            // Funkcja napędu kulki z żyroskopu
 }
 function moveBall(){                 // funkcja poruszania kulki
     
-    
-
     if(posX+speedX<window.innerWidth-50 && posX+speedX>0){  // ograniczenia kulki
         posX+=speedX;
         ball.style.left=posX+'px';        
@@ -83,7 +81,7 @@ function moveBall(){                 // funkcja poruszania kulki
                 document.getElementById("restart").hidden=false;
             }
         }
-        console.log("omg"+i);
+        console.log("MOOOOOOVE"+i);
     }
     };
     if(gameStart==true){
