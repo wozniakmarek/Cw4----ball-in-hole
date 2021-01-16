@@ -47,4 +47,8 @@
 span{
     font-size: 30px;
     float: left;
+    color: gold;
+}
+body{
+    background-color: black;
 }
